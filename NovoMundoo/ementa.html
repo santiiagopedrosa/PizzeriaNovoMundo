@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ementa completa da Pizzeria Novo Mundo — Pizzas, Entradas, Saladas, Especialidades e Bebidas em Caldas da Rainha.">
+  <title>Ementa — Pizzeria Novo Mundo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ══ NAV ══ -->
+<nav>
+  <div class="nav-w">
+    <a href="index.html" class="logo">
+      <span class="sr">&#9733;</span> Novo<em>Mundo</em> <span class="sr">&#9733;</span>
+    </a>
+    <button class="hbg" id="hbg" aria-label="Menu"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navMenu">
+      <li><a href="index.html">Início</a></li>
+      <li><a href="ementa.html" class="act">Ementa</a></li>
+      <li><a href="index.html#horarios">Horários</a></li>
+      <li><a href="index.html#contactos">Contactos</a></li>
+    </ul>
+    <span class="nav-tel">&#9742; 262 842 969</span>
+  </div>
+</nav>
+
+<!-- ══ HERO ══ -->
+<div class="eh">
+  <div class="wrap eh-in">
+    <div class="eh-stars"><span class="sr">&#9733;</span><span class="sr">&#9733;</span><span class="sr">&#9733;</span></div>
+    <div class="eh-badge"><span class="sr">&#9733;</span> Pizzeria Novo Mundo &middot; Caldas da Rainha &middot; Desde 1995 <span class="sr">&#9733;</span></div>
+    <h1>A Nossa <em>Ementa</em></h1>
+    <p>Ingredientes frescos, preparados com paixão todos os dias</p>
+  </div>
+</div>
+
+<!-- ══ NAV CATEGORIAS ══ -->
+<div class="cat-nav">
+  <div class="cat-nav-in">
+    <button class="cat-btn act" onclick="catScroll('entradas',this)">&#9733; Entradas</button>
+    <button class="cat-btn" onclick="catScroll('complementos',this)">Complementos</button>
+    <button class="cat-btn" onclick="catScroll('pizzas',this)">&#9733; Pizzas</button>
+    <button class="cat-btn" onclick="catScroll('especialidades',this)">Especialidades</button>
+    <button class="cat-btn" onclick="catScroll('saladas',this)">Saladas</button>
+    <button class="cat-btn" onclick="catScroll('diarios',this)">Pratos Diários</button>
+    <button class="cat-btn" onclick="catScroll('bebidas',this)">Bebidas</button>
+  </div>
+</div>
+
+<!-- ══ ENTRADAS ══ -->
+<div class="esec" id="entradas">
+  <div class="wrap">
+    <div class="esec-head">
+      <div class="esec-title"><span class="sr">&#9733;</span> Entradas <span class="sr">&#9733;</span></div>
+      <div class="esec-rule"></div>
+    </div>
+    <div class="egrid">
+      <div class="eitem">
+        <div class="ei-stars"><span class="sr">&#9733;</span><span class="sr">&#9733;</span><span class="sr">&#9733;</span></div>
+        <div class="ei-nome">Pão com Bacon, Queijo e Ervas Aromáticas</div>
+        <div class="ei-nota">&#9733; Mínimo 3 unidades para fora</div>
+        <div class="ei-preco">0,70€ <span>/ unidade</span></div>
+      </div>
+      <div class="eitem">
+        <div class="ei-stars"><span class="sr">&#9733;</span><span class="sr">&#9733;</span><span class="sr">&#9733;</span></div>
+        <div class="ei-nome">Pão com Manteiga de Alho</div>
+        <div class="ei-nota">&#9733; Mínimo 6 unidades para fora</div>
+        <div class="ei-preco">0,50€ <span>/ unidade</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider"><span class="sr">&#9733;</span>&nbsp;&mdash;&nbsp;<span class="sr">&#9733;</span>&nbsp;&mdash;&nbsp;<span class="sr">&#9733;</span></div>
+
+<!-- ══ COMPLEMENTOS ══ -->
+<div class="esec alt" id="complementos">
+  <div class="wrap">
+    <div class="esec-head">
+      <div class="esec-title"><span class="sr">&#9733;</span> Complementos <span class="sr">&#9733;</span></div>
+      <div class="esec-rule"></div>
+    </div>
+    <div class="egrid">
+      <div class="eitem"><div class="ei-nome">Dose de Batata Frita</div><div class="ei-preco">2,20€</div></div>
+      <div class="eitem"><div class="ei-nome">Molho Extra</div><div class="ei-preco">0,20€</div></div>
+      <div class="eitem"><div class="ei-nome">Fatia de Pizza</div><div class="ei-preco">1,70€</div></div>
+      <div class="eitem"><div class="ei-nome">Ingrediente Adicionado</div><div class="ei-preco">1,50€ <span>G</span> / 0,95€ <span>P</span></div></div>
+    </div>
+  </div>
+</div>
+
+<div class="divider"><span class="sr">&#9733;</span>&nbsp;&mdash;&nbsp;<span class="sr">&#9733;</span>&nbsp;&mdash;&nbsp;<span class="sr">&#9733;</span></div>
+
+<!-- ══ PIZZAS ══ -->
+<div class="esec" id="pizzas">
+  <div class="wrap">
+    <div class="esec-head">
+      <div class="esec-title"><span class="sr">&#9733;</span> Pizzas <span class="sr">&#9733;</span></div>
+      <div class="esec-rule"></div>
+      <div class="esec-sub">Não fazemos pizza de massa alta</div>
+    </div>
+    <div class="tc">
+      <div class="size-tag"><span class="sr">&#9733;</span> Grande 36cm &nbsp;&middot;&nbsp; Mini 24cm <span class="sr">&#9733;</span></div>
+    </div>
+    <div class="egrid">
+      <div class="eitem"><span class="ebadge esp">&#9733; Especial</span><div class="ei-stars"><span class="sr">&#9733;</span><span class="sr">&#9733;</span><span class="sr">&#9733;</span></div><div class="ei-nome">Pizza Novo Mundo</div><div class="ei-ing">Tomate, Queijo, Carne, Bacon, Chourição, Pimentos</div><div class="ei-preco">11,80€ <span>G</span> / 6,75€ <span>P</span></div></div>
+      <div class="eitem"><span class="ebadge esp">&#9733; Especial</span><div class="ei-stars"><span class="sr">&#9733;</span><span class="sr">&#9733;</span><span class="sr">&#9733;</span></div><div class="ei-nome">Pizza dú Chefe</div><div class="ei-ing">Tomate, Queijo, Cebola, Pimento, Pepperoni, Bacon</div><div class="ei-preco">12,00€ <span>G</span> / 6,75€ <span>P</span></div></div>
+      <div class="eitem"><div class="ei-nome">Pizza Bacana</div><div class="ei-ing">Tomate, Queijo, Bacon, Chourição, Ananás</div><div class="ei-preco">11,80€ <span>G</span> / 6,75€ <span>P</span></div></div>
+      <div class="eitem"><div class="ei-nome">Pizza Quatro Estações</div><div class="ei-ing">Tomate, Queijo, Carne, Fiambre, Chourição, Cogumelos</div><div class="ei-preco">11,80€ <span>G</span> / 6,75€ <span>P</span></div></div>
+      <div class="eitem"><div class="ei-nome">Pizza Franguita</div><div class="ei-ing">Tomate, Queijo, Frango, Milho, Bacon</div><div class="ei-preco">11,80€ <span>G</span> / 6,75€ <span>P</span></div></div>
+      <div class="eitem"><div class="ei-nome">Pizza Deliciosa</div><div class="ei-ing">Tomate, Queijo, Fiambre, Carne, Ananás, Cogumelos</div><div class="ei-preco">11,80€ <span>G</span> / 6,75€ <span>P</span></div></div>
+      <div class="eitem"><div class="ei-nome">Pizza Rainha</div><div class="ei-ing">Tomate, Queijo, Fiambre, Cogumelos, Azeitonas</div><div class="ei-preco">11,80€ <span>G</span> / 6,75€ <span>P</span></div></div>
+      <div class="eitem"><div class="ei-nome">Pizza Maravilha</div><div class="ei-ing">Tomate, Queijo, Carne, Pimentos, Tomate Fresco, Cebola</div><div class="ei-preco">11,80€ <span>G</span> / 6,75€ <span>P</span></div></div>
+      <div class="eitem"><div class="ei-nome">Pizza Docarmo</div><div class="ei-ing">Tomate, Queijo, Fiambre, Bacon, Cogumelos</div><div class="ei-preco">11,80€ <span>G</span> / 6,75€ <span>P</span></div></div>
+      <div class="eitem"><div class="ei-nome">Pizza Cachorro</div><div class="ei-ing">Tomate, Queijo, Salsicha, Fiambre, Frango, Mostarda</div><div class="ei-preco">11,80€ <span>G</span> / 6,75€ <span>P</span></div></div>
+      <div class="eitem"><div class="ei-nome">Pizza Alcôa</div><div class="ei-ing">Tomate, Queijo, Chourição, Bacon, Cogumelos</div><div class="ei-preco">11,80€ <span>G</span> / 6,75€ <span>P</span></div></div>
+      <div class="eitem"><span class="ebadge veg">Vegetariana</span><div class="ei-nome">Pizza Tropical</div><div class="ei-ing">Tomate, Queijo, Milho, Pêssego, Ananás</div><div class="ei-preco">11,80€ <span>G</span> / 6,75€ <span>P</span></div></div>
+      <div class="eitem"><span class="ebadge veg">Vegetariana</span><div class="ei-nome">Pizza Vegetariana</div><div class="ei-ing">Tomate, Queijo, Cebola, Azeitona, Milho, Tomate Fresco, Pimentos</div><div class="ei-preco">11,80€ <span>G</span> / 6,75€ <span>P</span></div></div>
+      <div class="eitem"><span class="ebadge veg">Vegetariana</span><div class="ei-nome">Pizza Duplo Queijo</div><div class="ei-ing">Tomate, Queijo, Mozzarela</div><div class="ei-preco">11,80€ <span>G</span> / 6,75€ <span>P</span></div></div>
+      <div class="eitem"><div class="ei-nome">Pizza Fiambre</div><div class="ei-ing">Tomate, Queijo, Fiambre</div><div class="ei-preco">11,80€ <span>G</span> / 6,75€ <span>P</span></div></div>
+      <div class="eitem"><div class="ei-nome">Pizza Camponesa</div><div class="ei-ing">Tomate, Queijo, Atum, Azeitonas, Cebola, Orégãos</div><div class="ei-preco">11,80€ <span>G</span> / 6,75€ <span>P</span></div></div>
+      <div class="eitem"><div class="ei-nome">Pizza Atum</div><div class="ei-ing">Tomate, Queijo, Atum, Cebola</div><div class="ei-preco">12,00€ <span>G</span> / 6,90€ <span>P</span></div></div>
+      <div class="eitem"><div class="ei-nome">Pizza Terra e Mar</div><div class="ei-ing">Tomate, Queijo, Carne, Chourição, Atum, Ananás</div><div class="ei-preco">12,00€ <span>G</span> / 6,90€ <span>P</span></div></div>
+      <div class="eitem"><div class="ei-nome">Pizza com Vegetais, Atum e Ovo</div><div class="ei-ing">Tomate, Queijo, Pimento, Atum, Ovo, Cebola</div><div class="ei-preco">12,00€ <span>G</span> / 6,90€ <span>P</span></div></div>
+      <div class="eitem"><div class="ei-nome">Pizza Ibérica</div><div class="ei-ing">Tomate, Queijo, Carne, Bacon, Pepperoni, Salsicha</div><div class="ei-preco">12,00€ <span>G</span> / 6,90€ <span>P</span></div></div>
+      <div class="eitem"><div class="ei-nome">Pizza Pepperoni</div><div class="ei-ing">Tomate, Queijo, Pepperoni</div><div class="ei-preco">12,00€ <span>G</span> / 6,90€ <span>P</span></div></div>
+      <div class="eitem"><span class="ebadge sog">Só Grande</span><div class="ei-nome">Pizza Dois Sabores</div><div class="ei-ing">À escolha — duas metades de pizza. Apenas pizzas grandes.</div><div class="ei-preco">12,00€ <span>G</span></div></div>
+    </div>
+  </div>
+</div>
+
+<div class="divider"><span class="sr">&#9733;</span>&nbsp;&mdash;&nbsp;<span class="sr">&#9733;</span>&nbsp;&mdash;&nbsp;<span class="sr">&#9733;</span></div>
+
+<!-- ══ ESPECIALIDADES ══ -->
+<div class="esec alt" id="especialidades">
+  <div class="wrap">
+    <div class="esec-head">
+      <div class="esec-title"><span class="sr">&#9733;</span> Especialidades <span class="sr">&#9733;</span></div>
+      <div class="esec-rule"></div>
+    </div>
+    <div class="egrid">
+      <div class="eitem"><div class="ei-stars"><span class="sr">&#9733;</span><span class="sr">&#9733;</span><span class="sr">&#9733;</span></div><div class="ei-nome">Lasanha</div><div class="ei-ing">Massa, Tomate, Carne, Cogumelos e Queijo</div><div class="ei-preco">7,50€</div></div>
+      <div class="eitem"><div class="ei-stars"><span class="sr">&#9733;</span><span class="sr">&#9733;</span><span class="sr">&#9733;</span></div><div class="ei-nome">Chicken Parmagiana</div><div class="ei-ing">Tomate, Queijo Gratinado, Peito de Frango Panado com Batata Frita ou Salada</div><div class="ei-preco">7,50€</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="divider"><span class="sr">&#9733;</span>&nbsp;&mdash;&nbsp;<span class="sr">&#9733;</span>&nbsp;&mdash;&nbsp;<span class="sr">&#9733;</span></div>
+
+<!-- ══ SALADAS ══ -->
+<div class="esec" id="saladas">
+  <div class="wrap">
+    <div class="esec-head">
+      <div class="esec-title"><span class="sr">&#9733;</span> Saladas <span class="sr">&#9733;</span></div>
+      <div class="esec-rule"></div>
+    </div>
+    <div class="egrid">
+      <div class="eitem"><div class="ei-nome">Salada Mista</div><div class="ei-ing">Alface, Tomate, Cenoura, Azeitonas, Milho</div><div class="ei-preco">3,75€</div></div>
+      <div class="eitem"><div class="ei-nome">Salada Primavera</div><div class="ei-ing">Alface, Tomate, Cenoura, Azeitonas, Milho, Pêssego, Ananás</div><div class="ei-preco">4,25€</div></div>
+      <div class="eitem"><div class="ei-nome">Salada de Frango</div><div class="ei-ing">Alface, Tomate, Cenoura, Milho, Frango, Cebola Frita, Azeitonas, Fios de Mozzarella</div><div class="ei-preco">4,75€</div></div>
+      <div class="eitem"><div class="ei-nome">Salada Camponesa</div><div class="ei-ing">Atum, Ovo Cozido, Alface, Tomate, Cenoura, Azeitonas, Milho e Rúcula</div><div class="ei-preco">4,75€</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="divider"><span class="sr">&#9733;</span>&nbsp;&mdash;&nbsp;<span class="sr">&#9733;</span>&nbsp;&mdash;&nbsp;<span class="sr">&#9733;</span></div>
+
+<!-- ══ PRATOS DIÁRIOS ══ -->
+<div class="esec alt" id="diarios">
+  <div class="wrap">
+    <div class="esec-head">
+      <div class="esec-title"><span class="sr">&#9733;</span> Pratos Diários <span class="sr">&#9733;</span></div>
+      <div class="esec-rule"></div>
+      <div class="esec-sub">Disponíveis das 12h00 às 14h30 e das 19h00 às 22h00</div>
+    </div>
+    <div class="egrid">
+      <div class="eitem"><div class="ei-stars"><span class="sr">&#9733;</span><span class="sr">&#9733;</span><span class="sr">&#9733;</span></div><div class="ei-nome">Escalope Panado de Frango</div><div class="ei-ing">Porção de Frango, Salada e Batata Frita</div><div class="ei-preco">6,80€</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="divider"><span class="sr">&#9733;</span>&nbsp;&mdash;&nbsp;<span class="sr">&#9733;</span>&nbsp;&mdash;&nbsp;<span class="sr">&#9733;</span></div>
+
+<!-- ══ BEBIDAS ══ -->
+<div class="esec" id="bebidas">
+  <div class="wrap">
+    <div class="esec-head">
+      <div class="esec-title"><span class="sr">&#9733;</span> Bebidas <span class="sr">&#9733;</span></div>
+      <div class="esec-rule"></div>
+    </div>
+    <div class="bgrid">
+      <div class="bitem"><span class="bitem-n"><span class="sr">&#9733;</span> Refrigerantes</span><span class="bitem-p">1,75€ / 1,80€</span></div>
+      <div class="bitem"><span class="bitem-n"><span class="sr">&#9733;</span> Águas</span><span class="bitem-p">1,35€</span></div>
+      <div class="bitem"><span class="bitem-n"><span class="sr">&#9733;</span> Super Bock</span><span class="bitem-p">1,75€</span></div>
+      <div class="bitem"><span class="bitem-n"><span class="sr">&#9733;</span> Pepsi 1,5L</span><span class="bitem-p">2,95€</span></div>
+      <div class="bitem"><span class="bitem-n"><span class="sr">&#9733;</span> Café</span><span class="bitem-p">0,85€</span></div>
+      <div class="bitem"><span class="bitem-n"><span class="sr">&#9733;</span> Sangria (garrafa)</span><span class="bitem-p">3,85€</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ NOTAS ══ -->
+<div class="notas-sec">
+  <div class="wrap">
+    <div class="notas-box">
+      <h4><span class="sr">&#9733;</span> Notas Importantes</h4>
+      <div class="nota"><span class="sr">&#9733;</span><span>Embalagem Takeaway: <strong>0,15€</strong> &nbsp;&middot;&nbsp; Caixa Takeaway: <strong>0,30€</strong></span></div>
+      <div class="nota"><span class="sr">&#9733;</span><span>Se alterar algum ingrediente para atum ou pepperoni, a pizza terá um custo extra.</span></div>
+      <div class="nota"><span class="sr">&#9733;</span><span>Não dispomos de serviço de Multibanco nas entregas ao domicílio.</span></div>
+      <div class="nota"><span class="sr">&#9733;</span><span>Não fazemos pizza de massa alta.</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="footer-w">
+    <a href="index.html" class="f-logo"><span class="sr">&#9733;</span> Pizzeria Novo Mundo <span class="sr">&#9733;</span></a>
+    <div class="f-copy">&copy; 2026 &middot; Todos os direitos reservados</div>
+    <div class="f-links">
+      <a href="index.html">Início</a>
+      <a href="ementa.html" class="act">Ementa</a>
+      <a href="index.html#horarios">Horários</a>
+      <a href="index.html#contactos">Contactos</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
